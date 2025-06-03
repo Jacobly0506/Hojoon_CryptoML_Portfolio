@@ -18,33 +18,31 @@ This project began with TensorFlow.js to experiment with client-side machine lea
 
 ## Project Structure Overview
 
-\`\`\`
-CryptoTradingProject/
-├── main.py                    # CLI-based interface with full menu
-├── requirements.txt           # Python package dependencies
-├── .gitignore                 # Git tracking rules
-│
-├── ml/                        # ML model training & prediction scripts
-│   ├── data/                  # (Optional) Historical price data
-│   ├── models/                # Saved .keras models per timeframe
-│   ├── train_15m.py           # Train model with 15m OHLCV
-│   ├── train_1h.py            # Train model with 1h OHLCV
-│   ├── train_4h.py            # Train model with 4h OHLCV
-│   ├── train_1d.py            # Train model with 1d OHLCV
-│   ├── predict_*.py           # Predict using trained models
-│   ├── train_summary.py       # Multiprocessing batch trainer
-│   └── predict_summary.py     # Unified prediction across timeframes
-│
-├── model/
-│   ├── CandleData.py          # Custom dataclass for OHLCV candles
-│   └── PriceInfo.py           # Result holder for prediction + indicators
-│
-├── services/
-│   └── BinanceService.py      # API wrapper for Binance US REST endpoints
-│
-├── utils/
-│   └── Indicators.py          # Technical indicator calculators (SMA, RSI, VWAP, etc.)
-\`\`\`
+CryptoTradingProject/<br>
+├── main.py                    # CLI-based interface with full menu<br>
+├── requirements.txt           # Python package dependencies<br>
+├── .gitignore                 # Git tracking rules<br>
+│<br>
+├── ml/                        # ML model training & prediction scripts<br>
+│   ├── data/                  # (Optional) Historical price data<br>
+│   ├── models/                # Saved .keras models per timeframe<br>
+│   ├── train_15m.py           # Train model with 15m OHLCV<br>
+│   ├── train_1h.py            # Train model with 1h OHLCV<br>
+│   ├── train_4h.py            # Train model with 4h OHLCV<br>
+│   ├── train_1d.py            # Train model with 1d OHLCV<br>
+│   ├── predict_*.py           # Predict using trained models<br>
+│   ├── train_summary.py       # Multiprocessing batch trainer<br>
+│   └── predict_summary.py     # Unified prediction across timeframes<br>
+│<br>
+├── model/<br>
+│   ├── CandleData.py          # Custom dataclass for OHLCV candles<br>
+│   └── PriceInfo.py           # Result holder for prediction + indicators<br>
+│<br>
+├── services/<br>
+│   └── BinanceService.py      # API wrapper for Binance US REST endpoints<br>
+│<br>
+├── utils/<br>
+│   └── Indicators.py          # Technical indicator calculators (SMA, RSI, VWAP, etc.)<br>
 
 ---
 
@@ -98,7 +96,7 @@ python main.py
 
 ---
 
-## 📌 Key Design Choices
+## Key Design Choices
 
 - **Modularized structure**: Easy to expand with new indicators or timeframes
 - **Timeframe-specific models**: Allows short-term vs long-term strategic analysis
@@ -106,7 +104,7 @@ python main.py
 
 ---
 
-## 🌱 Future Enhancements
+## Future Enhancements
 
 - [ ] Real-time trading simulation or backtest mode
 - [ ] Web dashboard for live visualization
@@ -116,13 +114,13 @@ python main.py
 
 ---
 
-## 📜 License
+## License
 
 This project is open-source and uses the [MIT License](LICENSE).
 
 ---
 
-## 🙋 About the Author
+## About the Author
 
 Developed by **Hojoon Lee**, a graduate student at Carnegie Mellon University  
 Passionate about data-driven finance, algorithmic trading, and hybrid AI systems.
@@ -130,7 +128,7 @@ Passionate about data-driven finance, algorithmic trading, and hybrid AI systems
 
 ---
 
-## 📚 References
+## References
 
 This project was supported in part by AI-assisted tools such as **OpenAI ChatGPT**, which contributed to:
 
