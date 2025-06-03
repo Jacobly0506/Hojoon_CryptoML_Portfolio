@@ -1,11 +1,11 @@
-# 💹 CryptoTradingProject
+# CryptoTradingProject
 
 A hybrid cryptocurrency trading system that uses **real-time market data**, **machine learning models**, and **technical indicators** to make trading decisions.  
 Originally implemented with JavaScript (TensorFlow.js), the project was **entirely migrated to Python** for better performance, flexibility, and maintainability.
 
 ---
 
-## 🔄 Why I Transitioned from JS to Python
+## Why I Transitioned from JS to Python
 
 This project began with TensorFlow.js to experiment with client-side machine learning. However, I made a strategic switch to Python for the following reasons:
 
@@ -16,7 +16,7 @@ This project began with TensorFlow.js to experiment with client-side machine lea
 
 ---
 
-## 📁 Project Structure Overview
+## Project Structure Overview
 
 \`\`\`
 CryptoTradingProject/
@@ -48,33 +48,33 @@ CryptoTradingProject/
 
 ---
 
-## ⚙️ Features
+## ⚙Features
 
-- 🔁 **Real-time Data Fetching**
+- **Real-time Data Fetching**
   - Binance US API integration
   - Fetch OHLCV and volume data for any symbol
 
-- 📊 **Technical Indicators**
+- **Technical Indicators**
   - SMA (Simple Moving Average)
   - EMA, RSI, VWAP, Bollinger Bands
   - ATR (Average True Range), OBV (On-Balance Volume)
 
-- 🧠 **Deep Learning Predictions**
+- **Deep Learning Predictions**
   - Trained models for multiple timeframes (15m, 1h, 4h, 1d)
   - Multivariate LSTM-style prediction
   - Multi-output forecast: Close, High, Low
 
-- 🧮 **Hybrid Decision Engine**
+- **Hybrid Decision Engine**
   - Combines technical indicators + ML predictions
   - Returns a 7-tier actionable signal:
     - 적극 매수 (Strong Buy) → 적극 매도 (Strong Sell)
 
-- ⚡ **Multiprocessing Training Pipeline**
+- **Multiprocessing Training Pipeline**
   - Parallel model training across timeframes
 
 ---
 
-## 🧪 How to Run
+## How to Run
 
 ### 1. Install Dependencies
 
@@ -88,17 +88,12 @@ pip install -r requirements.txt
 python main.py
 \`\`\`
 
-### 3. Available Options in CLI Menu
+### 3. Available Options
 
 \`\`\`
-1. Current Analysis + ML Prediction
-2. Model-train
-3. Model-view
-4. Model-clear
-5. Ensemble-train
-6. Ensemble-predict
-7. Ensemble-Model-clear
-8. Hybrid Decision Engine ✅
+1. Current Analysis
+2. Train
+3. Predict
 \`\`\`
 
 ---
@@ -145,5 +140,4 @@ This project was supported in part by AI-assisted tools such as **OpenAI ChatGPT
 - Markdown documentation and README formatting
 
 All implementation, training, and customization were developed by **Hojoon Lee**.  
-This repository serves as a part of my professional **portfolio**, showcasing full-stack ML integration for crypto finance.
-
+This repository serves as a part of my **portfolio**, showcasing full-stack ML integration for crypto finance.
