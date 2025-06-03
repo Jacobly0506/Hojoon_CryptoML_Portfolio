@@ -111,6 +111,7 @@ python main.py
 - [ ] Model performance monitoring (MSE, R²)
 - [ ] Telegram / Discord alerts
 - [ ] Integration with broker API for live execution
+- [ ] And So On...
 
 ---
 
