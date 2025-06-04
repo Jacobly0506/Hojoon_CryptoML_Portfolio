@@ -74,15 +74,15 @@ CryptoTradingProject/<br>
 
 ## How to Run
 
-1. Install Dependencies
+**1. Install Dependencies**
 
    pip install -r requirements.txt
 
-2. Launch the CLI
+**2. Launch the CLI**
   
    python main.py
 
-3. Menu Options
+**3. Menu Options**
 
 - Real-time Hybrid Analysis
 - Model Training
