@@ -89,6 +89,27 @@ CryptoTradingProject/<br>
 - Price Prediction
 - (and more...)
 
+**1. Train Models**
+Before prediction, train a model for each timeframe:
+
+- python ml/train_1d.py    # Train model for 1-day intervals
+- python ml/train_4h.py   # Train model for 4-hours intervals
+- python ml/train_1h.py   # Train model for 1-hour intervals
+- python ml/train_15m.py   # Train model for 15-minute intervals
+
+**2. Predict Prices**
+After training, make predictions for a symbol:
+
+- python ml/predict_1d.py  # Predict next 1-day candle for BTC/ETH/etc.
+- python ml/predict_4h.py  # Predict next 4-hours candle for BTC/ETH/etc.
+- python ml/predict_1h.py  # Predict next 1-hour candle for BTC/ETH/etc.
+- python ml/predict_15m.py  # Predict next 15-minutes candle for BTC/ETH/etc.
+
+**3. Run the Hybrid Decision Engine**
+Combine technical indicators and ML predictions for actionable signals:
+
+- python utils/Hybrid_Decision_Engine.py # Decision based on Hybrid Engine.
+
 ---
 
 ## Key Design Choices
