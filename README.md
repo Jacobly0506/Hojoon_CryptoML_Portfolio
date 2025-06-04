@@ -1,5 +1,9 @@
 # CryptoTradingProject
 
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue)]()
+[![MIT License](https://img.shields.io/badge/license-MIT-green)]()
+[![Binance API](https://img.shields.io/badge/API-Binance-yellow)]()
+
 A hybrid cryptocurrency trading system leveraging **real-time market data**, **advanced machine learning**, and **technical indicators** to make data-driven trading decisions.
 Originally built with JavaScript (TensorFlow.js), the project was fully migrated to Python for improved performance, extensibility, and reliability.
 
