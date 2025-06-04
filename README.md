@@ -46,7 +46,7 @@ CryptoTradingProject/<br>
 
 ---
 
-## ⚙Features
+## Features
 
 - **Real-time Data Fetching**
   - Binance US API integration
