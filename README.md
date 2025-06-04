@@ -1,7 +1,7 @@
 # CryptoTradingProject
 
-A hybrid cryptocurrency trading system that uses **real-time market data**, **machine learning models**, and **technical indicators** to make trading decisions.  
-Originally implemented with JavaScript (TensorFlow.js), the project was **entirely migrated to Python** for better performance, flexibility, and maintainability.
+A hybrid cryptocurrency trading system leveraging **real-time market data**, **advanced machine learning**, and **technical indicators** to make data-driven trading decisions.
+Originally built with JavaScript (TensorFlow.js), the project was fully migrated to Python for improved performance, extensibility, and reliability.
 
 ---
 
@@ -9,7 +9,7 @@ Originally implemented with JavaScript (TensorFlow.js), the project was **entire
 
 This project began with TensorFlow.js to experiment with client-side machine learning. However, I made a strategic switch to Python for the following reasons:
 
-- **Broader ecosystem**: Libraries like `TensorFlow`, `Keras`, `pandas`, and `NumPy` are more mature and well-documented in Python.
+- **Broader ecosystem**: Libraries like TensorFlow, Keras, pandas, and NumPy are more mature, well-supported, and production-ready in Python.
 - **Better ML support**: Python offers robust ML tooling (training, saving, evaluation, preprocessing).
 - **System-level integration**: Easier interaction with OS, data pipelines, and REST APIs.
 - **Scalability**: Python can support multiprocessing, memory control, and backend integration more effectively.
@@ -74,43 +74,39 @@ CryptoTradingProject/<br>
 
 ## How to Run
 
-### 1. Install Dependencies
+1. Install Dependencies
 
-\`\`\`bash
 pip install -r requirements.txt
-\`\`\`
 
-### 2. Launch Main CLI Menu
+2. Launch the CLI
 
-\`\`\`bash
 python main.py
-\`\`\`
 
-### 3. Available Options
+3. Menu Options
 
-\`\`\`
-1. Current Analysis
-2. Train
-3. Predict
-\`\`\`
+- Real-time Hybrid Analysis
+- Model Training
+- Price Prediction
+- (and more...)
 
 ---
 
 ## Key Design Choices
 
-- **Modularized structure**: Easy to expand with new indicators or timeframes
-- **Timeframe-specific models**: Allows short-term vs long-term strategic analysis
-- **Full offline capability**: Models can be used without continuous API calls once trained
+- **Large Data Window**: Fetches and analyzes up to 1000 candles per symbol from the Binance API, enabling deep context for both ML models and technical indicators.
+- **Flexible Timeframe Selection**: Easily switch between 1m, 15m, 1h, 4h, and 1d intervals for both training and prediction.
+- **Modular Design**: All components—data fetching, feature engineering, model training, and prediction—are fully modular for rapid experimentation.
 
 ---
 
 ## Future Enhancements
 
-- [ ] Real-time trading simulation or backtest mode
-- [ ] Web dashboard for live visualization
-- [ ] Model performance monitoring (MSE, R²)
-- [ ] Telegram / Discord alerts
-- [ ] Integration with broker API for live execution
+- [ ] News Sentiment & Keywords Algorithm: Integrate a real-time news crawler and NLP-based keyword extraction to gauge market sentiment and automatically reflect critical news into trading signals.
+- [ ] OHLC ML Prediction Ensemble: Ensemble multiple ML models for OHLC (Open, High, Low, Close) price prediction across different timeframes (15m, 1h, 4h, 1d) to increase robustness and accuracy.
+- [ ] 1 - Minute (1m) Model Support:
+    - Implement train_1m.py for ultra-short-term trading strategies.
+    - Enable fast predictions (predict_1m.py) and automatic CSV saving for each run.
+    - Support incremental saving to grow datasets as the system runs.
 - [ ] And So On...
 
 ---
