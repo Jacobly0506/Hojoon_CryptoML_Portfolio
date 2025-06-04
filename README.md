@@ -93,6 +93,8 @@ CryptoTradingProject/<br>
 - Price Prediction
 - (and more...)
 
+## How to Train & Predict
+
 **1. Train Models**
 Before prediction, train a model for each timeframe:
 
