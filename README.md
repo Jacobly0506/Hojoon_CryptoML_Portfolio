@@ -1,4 +1,4 @@
-# CryptoTradingProject
+# Crypto ML Decision Engine
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue)]()
 [![MIT License](https://img.shields.io/badge/license-MIT-green)]()
