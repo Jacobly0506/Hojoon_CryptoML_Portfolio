@@ -76,11 +76,11 @@ CryptoTradingProject/<br>
 
 **1. Install Dependencies**
 
-   pip install -r requirements.txt
+- pip install -r requirements.txt
 
 **2. Launch the CLI**
   
-   python main.py
+- python main.py
 
 **3. Menu Options**
 
